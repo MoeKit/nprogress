@@ -1,5 +1,5 @@
 {
-  "name": "nprogress",
+  "name": "progresser",
   "author": "Rico Sta. Cruz <hi@ricostacruz.com>",
   "description": "Simple slim progress bars",
   "version": "0.1.6",
@@ -16,6 +16,13 @@
     "chai": "~1.6.1",
     "mocha": "~1.11.0",
     "jsdom": "~0.6.5"
+  },
+  "spm": {
+    "main": "index.js",
+    "output": ["nprogress.css"],
+    "devDependencies": {
+      "jquery": "1.8.3"
+    }
   },
   "dependencies": {}
 }
